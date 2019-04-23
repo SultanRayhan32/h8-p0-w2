@@ -4,7 +4,7 @@ var peran = 'Tabib';
 if(nama === "" && peran === ''){
     console.log('Nama harus diisi!')
 }
-else if(peran === ''){
+else if(peran === '' && nama !== ''){
     console.log(`Halo ${nama}, Pilih peranmu untuk memulai game!`);
 }
 
