@@ -1,12 +1,12 @@
 function xo(str) {
-    var x1 = [];
-    var o1 = []
+    var x1 = ''
+    var o1 = ''
     for(var u = 0; u < str.length; u++){
         if(str[u] === 'x'){
-            x1.push(str[u])
+            x1 += str[u]
         }
         else{
-            o1.push(str[u])
+            o1 += str[u]
         }
     }
 
@@ -25,4 +25,4 @@ function xo(str) {
   console.log(xo('oxo')); // false
   console.log(xo('xxxooo')); // true
   console.log(xo('xoxooxxo')); // true
-//   console.log(xo('ooooooxxxxx'))
+  
