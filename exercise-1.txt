@@ -1,0 +1,75 @@
+1. 
+    //PSEUDOCODE
+    STORE "massa benda" with the value of 600kg
+    STORE "percepatan benda" with the value 2m/s2
+
+    STORE "resultangaya" with the value of "massa benda" multiple to "percepatan benda"
+
+    DISPLAY "resultangaya"
+    //ALGORITMA
+    1. variabel massa benda di isi 600kg
+    2. variabel percepatan benda di isi 2m/s2
+    3. variabel resultangaya di isi variabel massa benda (600kg) di kalikan dengan variabel percepatan benda (2m/s2)
+    4. tampilkan resultangaya // hasilnya
+2. 
+    //PSEUDOCODE
+    STORE "YEAR"   with the value of 2020
+    STORE "YEAR2" with blank string
+    IF
+    ( // condition
+        YEAR modulus 4 EQUAL TO 0 AND YEAR modulus 10 NOT EQUAL TO 0  
+        OR  YEAR modulus 4 EQUAL TO 0 AND YEAR modulus 100 EQUAL TO 0 AND YEAR modulus EQUAL TO 0
+    ) THEN, STORE "YEAR2" with 'TAHUN KABISAT'
+    ELSE 
+        THEN, STORE "YEAR2" with 'BUKAN TAHUN KABISAT'
+    DISPLAY YEAR2 // hasilnya
+
+
+    //ALGORITMA
+    1. variabel YEAR di isi dengan tahun sesuai input // disini saya tulis 2020
+    2. variabel YEAR2 di isi string kosong
+    3. jika variabel YEAR habis di modulus 4 dan tidak habis di modulus 10 , 
+       atau variabel YEAR habis di modulus 4 dan habis di modulus 100 dan habis di modulus 400
+    4. jika kondisi di atas TRUE maka isi variabel YEAR2 dengan 'TAHUN KABISAT'
+    5. jika variabel YEAR tidak masuk dengan kondisi diatas maka isi variabel YEAR2 dengan 'BUKAN TAHUN KABISAT'
+
+3.
+    //PSEUDOCODE
+    STORE "JUMLAH PAKAIAN" with the value of 20 // tergantung dengan jumlah PAKAIAN
+    STORE "JUMLAH PAKAIAN YG DI HITUNG" with the value of 0
+    STORE "MESIN CUCI STATUS" with "mesin cuci mati"
+    STORE "x" with the value 0f 1
+    WHILE(x LESS THAN OR EQUAL to "JUMLAH PAKAIAN" )
+        (STORE "JUMLAH PAKAIAN YG DI HITUNG" with the value of "JUMLAH PAKAIAN YG DI HITUNG" plus 1)
+        (STORE "x" with the value of "x" plus 1)
+    
+    IF( "JUMLAH PAKAIAN YG DI HITUNG" EQUAL TO "JUMLAH PAKAIAN" ) THEN
+        STORE "MESIN CUCI STATUS" with 'mesin cuci menyala'
+
+    DISPLAY "JUMLAH PAKAIAN YG DI HITUNG"
+
+    //ALGORITMA
+    1. variabel jumlah pakaian di isi tergantung berapa jumlah pakaian
+    2. variabel jumlah pakaian yang dihitung di isi dengan 0
+    3. melakukan operasi looping while
+    4. looping terus berjalan selama x lebih kecil sama dengan jumlah pakaian
+    5. setiap looping berjalan variabel x dan variabel jumlah pakaian yang dihitung ditambahkan 1
+    6. setelah selesai, jika variabel jumlah pakaian yang dihitung sama dengan jumlah pakaian maka mesin cuci menyala.
+4.
+    //PSEUDOCODE
+    STORE "JUMLAH SISWA" with the value of 40
+    STORE "x" with the value 0f 1
+
+    WHILE(x LESS THAN OR EQUAL to "JUMLAH SISWA")
+        (IF SISWA.KUKU is 'panjang' ) THEN
+           DISPLAY 'GURU AKAN MENGHUKUMNYA'
+        (ELSE) THEN
+            DISPLAY 'GURU AKAN MEMUJINNYA'
+
+    //ALGORITMA 
+    1. variabel jumlah siswa di isi dengan jumlah siswa di kelas itu , sekarang di isi 40
+    2. variabel x di isi 1
+    3. melakukan operasi looping while
+    4. looping terus berjalan selama x lebih kecil sama dengan jumlah siswa
+    5. selama melakukan looping jika kuku siwa itu panjang maka akan menampilkan 'guru akan menghukumnya'
+    6. jika ELSE artinya kukunya tidak panjang maka akan menampilkan 'guru tidak akan menghukumnya'
